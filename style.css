@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    background-color:black ;
 }
 .header{
     background-color: black;
@@ -53,14 +54,16 @@
 .magnify{
     height: 48px;
     width: 48px;
+    background-color: #1f1f1f;
     display: flex;
     color: rgb(179,179,179);
     justify-content: center;
     align-items: center;
+    border-radius: 50px;
 }
 .signup{
     height: 48px;
-    width:280px ;
+    width:270px ;
     color: #b3b3b3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     display: flex;
@@ -82,6 +85,13 @@ a{
     align-items: center;
     justify-content: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:large;
-    
+    font-weight: bold;  
+}
+.body1{
+    background-color: #1f1f1f;
+    width: 353px;
+    height: 607.2px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border-radius: 10px;
 }
