@@ -6,27 +6,26 @@
     background-color: black;
     height: 64px;
     width: auto;  
-    display: flex;
-    justify-content:space-evenly;
+    display:flex;
     align-items: center; 
 }
 .headercenter{
     height: 48px;
     padding: 16px;
-    width: auto;
     display: flex;
-
     justify-content: space-evenly;
+
 }
 /* icon need to be bigger*/
 .icon{
+    height: 48px;
+    width: 300px;
     color: white;
-    height: 72px;
-    width: 72px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    align-items: center;
+    font-size: xx-large;
     
-
 }
 .home{
     height: 48px;
@@ -37,7 +36,6 @@
     align-items: center;
     background-color:#1f1f1f;
     border-radius: 50px;
-    ;
 }
 .search{
     padding-left:12px;
@@ -62,11 +60,11 @@
 }
 .signup{
     height: 48px;
-    width:95.2px ;
+    width:280px ;
     color: #b3b3b3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     font-size: large;
 }
@@ -77,6 +75,7 @@ a{
 .login{
     height: 48px;
     width: 108.3px;
+    margin-left: 20px;
     background-color: white;
     border-radius: 50px;
     display: flex;
